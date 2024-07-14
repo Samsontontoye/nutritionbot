@@ -5,13 +5,13 @@ from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
 
 st.set_page_config(page_title="Nutrition Chatbot", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
 openai.api_key = st.secrets.openai_key
-st.title("Chat with your Nutrition AI, powered by LlamaIndex 💬🦙")
+st.title("Chat with your Nutrition AI, powered by LlamaIndex 💬🥑")
 
 if "messages" not in st.session_state.keys():  # Initialize the chat messages history
     st.session_state.messages = [
         {
             "role": "assistant",
-            "content": "Ask me a question about Nutrition!",
+            "content": "Ask me a question about Nutrition!🍇",
         }
     ]
 
