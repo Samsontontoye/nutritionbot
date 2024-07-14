@@ -1,6 +1,6 @@
-# 🦙📚 LlamaIndex - Chat with the Nutrition AI
+# 🍇🥑 LlamaIndex - Chat with the Nutrition AI
 
-Build a chatbot powered by LlamaIndex that augments GPT 3.5 with the contents of the Streamlit docs (or your own data).
+A chatbot powered by LlamaIndex that augments GPT 3.5 with the contents of the Human Nutrition textbook by University of Hawaii Food Science and Human Nutrition Program.
 
 ## Overview of the App
 
